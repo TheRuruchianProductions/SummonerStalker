@@ -128,9 +128,7 @@ if __name__=='__main__':
         interval = args.interval if args.interval >= MIN_INTERVAL else MIN_INTERVAL
     if args.summoners:
         summoners = args.summoners
-    print (interval)
-    print (summoners)
-    # while True:
-        # scan(key, summoners, output)
-        # time.sleep(interval)
+    while True:
+        scan(key, summoners, output)
+        time.sleep(interval)
 
