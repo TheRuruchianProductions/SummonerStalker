@@ -1,0 +1,2 @@
+"interval": 50000, 
+"targets": ['hide on bush']
